@@ -33,11 +33,11 @@
       </v-container>
     </v-main>
     
-    <v-footer
+    <v-footer 
       :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }} Fnacy design studio, eh?</span>
+      <span class="footer">&copy; {{ new Date().getFullYear() }} Fnacy design studio, eh?</span>
     </v-footer>
   </v-app>
 </template>
