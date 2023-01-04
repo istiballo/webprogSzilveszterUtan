@@ -28,7 +28,8 @@ export default {
   },
   data () {
     return {
-      quantity: 1
+      quantity: 1,
+      total: 0
     }
   },
   methods: {
@@ -42,7 +43,10 @@ export default {
       } else {
         this.quantity--
       }
-    }
+    },
+      getItemPrice() {
+        total += this.item.price * this.item.quantity
+      }   
   }
 }
 </script>

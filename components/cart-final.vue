@@ -37,13 +37,13 @@ export default {
   },
   data () {
     return {
-      sum: 0,
+      total: 0,
       totalsum: 19.99
     }
   },
   methods: {
-    sum() {
-
+    getCartValue() {
+        
     }
   }
 }
