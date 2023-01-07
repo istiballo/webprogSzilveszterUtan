@@ -27,12 +27,6 @@
               <li>Chipsek</li>
             </ul>
       </div>
-    <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
-    </v-main>
-    
     <v-footer 
       :absolute="!fixed"
       app

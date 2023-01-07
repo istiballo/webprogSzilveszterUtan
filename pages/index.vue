@@ -77,7 +77,14 @@
 </template>
 
 <script>
+
+import itemCard from "~/components/item-card.vue"
+
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: [
+    itemCard,
+  ]
 }
 </script>
